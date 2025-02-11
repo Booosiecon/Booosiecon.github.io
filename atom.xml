@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-11T14:34:30.488Z</updated>
+  <updated>2025-02-11T16:05:06.380Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2025/02/11/EI-Nino/"/>
     <id>http://example.com/2025/02/11/EI-Nino/</id>
     <published>2025-02-11T09:55:55.000Z</published>
-    <updated>2025-02-11T14:34:30.488Z</updated>
+    <updated>2025-02-11T16:05:06.380Z</updated>
     
     <content type="html"><![CDATA[<h1 id="观测范围"><a href="#观测范围" class="headerlink" title="观测范围"></a>观测范围</h1><ul><li>来自文章《厄尔尼诺和拉尼娜结构不对称机理》<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs mathematica">对观测资料中赤道中太平洋<span class="hljs-punctuation">(</span><span class="hljs-number">5</span>°<span class="hljs-built_in">N</span>—<span class="hljs-number">5</span>°<span class="hljs-variable">S</span><span class="hljs-operator">,</span><span class="hljs-number">160</span>°<span class="hljs-built_in">E</span>—<span class="hljs-number">170</span>°<span class="hljs-variable">W</span><span class="hljs-punctuation">)</span>和赤道东太平洋<span class="hljs-punctuation">(</span><span class="hljs-number">5</span>°<span class="hljs-built_in">N</span>—<span class="hljs-number">5</span>°<span class="hljs-variable">S</span><span class="hljs-operator">,</span><span class="hljs-number">120</span>°—<span class="hljs-number">90</span>°<span class="hljs-variable">W</span><span class="hljs-punctuation">)</span>区域<span class="hljs-operator">...</span><br><br>当标准化 <span class="hljs-variable">DJF</span>（当年 <span class="hljs-number">12</span> 月至次年 <span class="hljs-number">2</span> 月）<span class="hljs-variable">Ni</span>ñ<span class="hljs-variable">o</span> <span class="hljs-number">3.4</span>（<span class="hljs-number">5</span>°<span class="hljs-built_in">N</span>— <span class="hljs-number">5</span>°<span class="hljs-variable">S</span>，<span class="hljs-number">120</span>°—<span class="hljs-number">170</span>°<span class="hljs-variable">W</span>）海表温度异常指数大于 <span class="hljs-number">0.5</span> 个标准差时，选择厄尔尼诺事件<br></code></pre></td></tr></table></figure></li><li>文章《全球变暖和厄尔尼诺事件》<figure class="highlight tap"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs tap">特定海域一般采 用 Niño3.4 区（5 °S ～<span class="hljs-number"> 5 </span>°N,<span class="hljs-number"> 170 </span>°～<span class="hljs-number"> 120 </span>°W)。<br></code></pre></td></tr></table></figure></li></ul><p>最终采用15°S~ 15°N，120°E~ 80°W作为作图范围</p><h1 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h1><p><a href="https://www.ncei.noaa.gov/products/coastal-surface-analysis-products">Coastal Surface Analysis Products</a>：</p><ul><li><p>垂直平均温度异常：<a href="https://www.ncei.noaa.gov/access/global-ocean-heat-content/index.html">Global Ocean Heat and Salt Content </a> -Vertically Averaged Temperature -0~100m&#x2F;季度</p></li><li><p>温度：<a href="https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/">Index of &#x2F;data&#x2F;sea-surface-temperature-optimum-interpolation&#x2F;v2.1&#x2F;access&#x2F;avhrr (noaa.gov)</a></p></li></ul>]]></content>
     
