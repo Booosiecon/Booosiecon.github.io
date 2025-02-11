@@ -124,25 +124,6 @@ Fluid.events = {
       });
     });
   }
-    setTopArrowPos();
-    jQuery(window).resize(setTopArrowPos);
-    // Display
-    var headerHeight = board.offset().top;
-    Fluid.utils.listenScroll(function() {
-      var scrollHeight = document.body.scrollTop + document.documentElement.scrollTop;
-      scrollDisplay = scrollHeight >= headerHeight;
-      topArrow.css({
-        'bottom': posDisplay && scrollDisplay ? '20px' : '-60px'
-      });
-    });
-    // Click
-    topArrow.on('click', function() {
-      jQuery('body,html').animate({
-        scrollTop: 0,
-        easing   : 'swing'
-      });
-    });
-  },
 
   registerImageLoadedEvent: function() {
     if (!('NProgress' in window)) { return; }
