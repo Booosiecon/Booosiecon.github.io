@@ -27,7 +27,7 @@
     <link href="/2025/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%A7%8B/"/>
     <url>/2025/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%A7%8B/</url>
     
-    <content type="html"><![CDATA[<p>图片如下,</p><p><img src="bear.jpg" alt="BearIsBug"></p>]]></content>
+    <content type="html"><![CDATA[<p>图片如下,</p><p><img src="/images/bear.jpg" alt="BearIsBug"></p>]]></content>
     
     
     
