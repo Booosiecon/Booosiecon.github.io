@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-03T04:24:50.055Z</updated>
+  <updated>2025-06-28T07:08:19.051Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>葡萄牙语-名词</title>
+    <link href="http://example.com/2025/06/28/%E5%90%8D%E8%AF%8D/"/>
+    <id>http://example.com/2025/06/28/%E5%90%8D%E8%AF%8D/</id>
+    <published>2025-06-28T04:55:12.000Z</published>
+    <updated>2025-06-28T07:08:19.051Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://booosiecon.github.io/"><img src="/images/Brazil1.png" alt="葡萄牙语-名词"></a></p>]]></content>
+    
+    
+    <summary type="html">鼠标悬停即可查看释义</summary>
+    
+    
+    
+    <category term="portuguese" scheme="http://example.com/categories/portuguese/"/>
+    
+    
+    <category term="language learning" scheme="http://example.com/tags/language-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>EI-Nino</title>
