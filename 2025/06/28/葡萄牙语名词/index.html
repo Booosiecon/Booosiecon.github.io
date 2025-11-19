@@ -27,8 +27,8 @@
 <meta property="og:description" content="🌴">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/Brazil1.png">
-<meta property="article:published_time" content="2025-06-28T07:30:10.000Z">
-<meta property="article:modified_time" content="2025-06-28T08:49:04.856Z">
+<meta property="article:published_time" content="2025-06-28T13:30:10.000Z">
+<meta property="article:modified_time" content="2025-07-08T14:47:59.155Z">
 <meta property="article:author" content="Hengxi">
 <meta property="article:tag" content="language learning">
 <meta name="twitter:card" content="summary_large_image">
@@ -232,7 +232,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          11 字
+          116 字
         
       </span>
     
@@ -295,7 +295,13 @@
               <div class="markdown-body">
                 
                 <p><a target="_blank" rel="noopener" href="https://booosiecon.github.io/"><img src="/images/Brazil1.png" srcset="/img/loading.gif" lazyload alt="葡萄牙语-名词"></a> #点击图片跳转到主页面</p>
-<p>relogio</p>
+<p>ó ô á ã é ê</p>
+<h1 id="日常用品"><a href="#日常用品" class="headerlink" title="日常用品"></a>日常用品</h1><p>o relógio → watch<br>a luva → glove<br>o terno → suit<br>a bota<br>fantasia → costume<br>chapéu → hat<br>bota → put on<br>tira → take off<br>calca → wear, put on<br>veste → wear<br>compra → buy<br>uso&#x2F;usa → wear<br>o vestido&#x2F;vestidos → dress&#x2F;dresses<br>casaco → coat<br>o cinto → belt<br>roupa → clothes<br>o sapato → shoe<br>a meia → sock<br>a capa → cape 披肩<br>a sandália → sandal<br>a camisa → shirt<br>agasalhos → jackets<br>a carteira → wallet &#x2F;ɒ&#x2F;<br>a saia → skirt<br>a blusas → blouses 女宽松上衣<br>a calca → tousers<br>bolsa → bag<br>bolso → pocket<br>cardápio → menu</p>
+<p>brinquedo → toy<br>sala → room<br>mesa → chair&#x2F;subject<br>cadeira → table<br>móvel-móveis furniture<br>janela → window<br>apartamento<br>cama → bed<br>porta → door<br>portão → gate<br>parede → wall<br>cortina → curtain</p>
+<h1 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h1><p>um<br>dois&#x2F;duas<br>três<br>quatro<br>cinco<br>seis<br>sete<br>oito<br>nove<br>dez</p>
+<p>onze<br>doze<br>treze<br>quatorze<br>quinze<br>dezesseis<br>dezessete<br>dezoito<br>dezenove<br>vinte</p>
+<h1 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h1><p>moreno<br>vermelhos<br>amarelo</p>
+<h1 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h1><p>pelo-pela-pelos-pelas<br>mamae - mae<br>papai - pai<br>filha - filho child<br>irma - irmao sister&#x2F;brother<br>tia - tio aunt, auntie&#x2F;uncle<br>neta - neto grandchild<br>prima - primo cousin<br>sobrinha&#x2F;sobrinho niece&#x2F;nephew<br>a avó - o avô grandmother&#x2F;grandfather<br>esposa - esposo, marido wife&#x2F;husband</p>
 
                 
               </div>
@@ -406,20 +412,21 @@
   
     <article id="comments" lazyload>
       
-  <div id="valine"></div>
+  <div id="waline"></div>
   <script type="text/javascript">
-    Fluid.utils.loadComments('#valine', function() {
-      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css')
+      Fluid.utils.createScript('https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js', function() {
         var options = Object.assign(
-          {"appId":"GxpTI6XPrHaLYy2g7KqEIg5v-gzGzoHsz","appKey":"Wb9iwwehKWl5oMScn2lKIhiM","path":"window.location.pathname","placeholder":"😄展开说说","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false,"shortname":"fluid"},
+          {"enable":true,"shortname":"fluid","serverURL":"waline-booosiecons-projects-30839a0f.vercel.app","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo","https://cdn.jsdelivr.net/gh/walinejs/emohis/tw-emoji"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10,"placeholder":"😄any idea?"},
           {
-            el: "#valine",
+            el: '#waline',
             path: window.location.pathname
           }
         )
-        new Valine(options);
-        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
-          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
           Fluid.plugins.imageCaption(imgSelector);
           Fluid.plugins.fancyBox(imgSelector);
         })
