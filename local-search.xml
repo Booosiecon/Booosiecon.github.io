@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>machine learning 01</title>
+    <link href="/2025/11/20/machine-learing-01/"/>
+    <url>/2025/11/20/machine-learing-01/</url>
+    
+    <content type="html"><![CDATA[<p>Machine Learning algorithms</p><ul><li>supervised learnning, used most</li><li>unsupervised learning</li><li>recommender systems</li><li>reinforcement learing</li></ul><h1 id="notation"><a href="#notation" class="headerlink" title="notation"></a>notation</h1><ul><li>x &#x3D; ‘input’ variable &#x2F; feature</li><li>y &#x3D; ‘output’ variable &#x2F; ‘target’ variable</li><li>m &#x3D; number of traing example</li><li>(x, y) &#x3D; single traing example</li><li>$(x^{i}, y^{i}) &#x3D; i^{th}$ training example $(1^{st}, 2^{nd}, 3^{rd}, …)$</li></ul><h1 id="supervised-learning"><a href="#supervised-learning" class="headerlink" title="supervised learning"></a>supervised learning</h1><ul><li><p>give the system a pair of X label and Y label, after learning ,the system will learn how to give a resonably accurate prediction of the output. Learning input-output or x-to-y mappings.</p></li><li><p>Regression algorithm</p><ul><li>Predict a number from infinitely many possible numbers.</li><li>Linear Regression model<ul><li>function e.g. f(x) &#x3D; wx + b</li></ul></li></ul></li><li><p>Classification algorithm</p><ul><li>classification predicts a small. finite, limited set of possible output catagories.</li><li>classification model predicts categories or discrete categories</li></ul></li></ul><h1 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h1><ul><li><p>find some structure or some pattern, not asked to give some quote right answer</p></li><li><p>clustering algorithm</p><ul><li>takes data without labels and tries to automatically group them into clusters.</li><li>group similar data together</li></ul></li><li><p>anomaly detection</p><ul><li>find unusual data points</li></ul></li><li><p>dimensionality reduction</p><ul><li>compress data , with losing as little information as possible</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>machine learning</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>oceanography</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>葡萄牙语-名词</title>
     <link href="/2025/06/28/%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E5%90%8D%E8%AF%8D/"/>
     <url>/2025/06/28/%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E5%90%8D%E8%AF%8D/</url>
