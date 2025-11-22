@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/darkocean.png">
 <meta property="article:published_time" content="2025-11-20T13:05:02.000Z">
-<meta property="article:modified_time" content="2025-11-22T20:37:43.383Z">
+<meta property="article:modified_time" content="2025-11-22T20:41:11.299Z">
 <meta property="article:author" content="Hengxi">
 <meta property="article:tag" content="machine learning">
 <meta name="twitter:card" content="summary_large_image">
@@ -232,7 +232,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          39 字
+          110 字
         
       </span>
     
@@ -307,9 +307,10 @@
 <li>y = ‘output’ variable / ‘target’ variable</li>
 <li>m = number of traing example</li>
 <li>(x, y) = single traing example</li>
-<li><h2 id="xi-yi-ith-training-example-1st-2nd-3rd-..."><span class="math inline">(<em>x</em><sup><em>i</em></sup>, <em>y</em><sup><em>i</em></sup>) = <em>i</em><sup><em>t</em><em>h</em></sup></span>
-training example <span class="math inline">(1<sup><em>s</em><em>t</em></sup>, 2<sup><em>n</em><em>d</em></sup>, 3<sup><em>r</em><em>d</em></sup>, ...)</span></h2></li>
+<li><span class="math inline">(<em>x</em><sup><em>i</em></sup>, <em>y</em><sup><em>i</em></sup>) = <em>i</em><sup><em>t</em><em>h</em></sup></span>
+training example <span class="math inline">(1<sup><em>s</em><em>t</em></sup>, 2<sup><em>n</em><em>d</em></sup>, 3<sup><em>r</em><em>d</em></sup>, ...)</span></li>
 </ul>
+<hr>
 <h1 id="supervised-learning">supervised learning</h1>
 <ul>
 <li><p>give the system a pair of X label and Y label, after learning
@@ -320,7 +321,22 @@ the output. Learning input-output or x-to-y mappings.</p></li>
 <li>Predict a number from infinitely many possible numbers.</li>
 <li>Linear Regression model
 <ul>
-<li>function e.g. f(x) = wx + b</li>
+<li>cost function
+<ul>
+<li>linear function, e.g. <span class="math inline"><em>f</em><sub><em>w</em>, <em>b</em></sub>(<em>x</em>) = <em>w</em><em>x</em> + <em>b</em></span><br>
+</li>
+<li>w,b is parameters/coefficients/weights</li>
+<li><span class="math inline"><em>ŷ</em><sup>(<em>i</em>)</sup> = <em>f</em>(<em>x</em><sup>(<em>i</em>)</sup>)</span></li>
+<li>total squared error: measures how far off the prediction is from the
+target: <span class="math inline">$\sum\limits_{i=1}^{m} ( \hat{y}^{(i)}
+- y^{(i)} )^2$</span></li>
+<li>cost function / squared error cost function: <span class="math display">$$J(w, b) = \frac{1}{2m} \sum\limits_{i=1}^{m} (
+\hat{y}^{(i)} - y^{(i)} )^2$$</span> equals to <span class="math display">$$J(w, b) = \frac{1}{2m} \sum\limits_{i=1}^{m} (
+f_{w,b}(x^{(i)}) - y^{(i)} )^2$$</span></li>
+<li>goal: find <span class="math inline">$\min\limits_{w,b} J(w,
+b)$</span></li>
+</ul></li>
+<li>gradient descent</li>
 </ul></li>
 </ul></li>
 <li><p>Classification algorithm</p>
