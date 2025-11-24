@@ -27,7 +27,7 @@
 <meta property="og:description" content="study notes">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-11-24T13:16:32.000Z">
-<meta property="article:modified_time" content="2025-11-24T13:25:08.567Z">
+<meta property="article:modified_time" content="2025-11-24T13:48:33.804Z">
 <meta property="article:author" content="Hengxi">
 <meta property="article:tag" content="machine learning">
 <meta name="twitter:card" content="summary_large_image">
@@ -301,7 +301,8 @@
   b &amp;= b - \alpha \frac{\partial}{\partial b} J(w,b)
   \end{aligned}
   \right.
-  $$</span> Simultaneously update w and b, like that: <span class="math display">$$
+  $$</span> Simultaneously update w and b, like that: <span
+class="math display">$$
   \begin{aligned}
   tmp\_w &amp;= w - \alpha \frac{\partial}{\partial w} J(w,b) \\
   tmp\_b &amp;= b - \alpha \frac{\partial}{\partial b} J(w,b) \\
@@ -317,19 +318,19 @@ gradient descent will work at a very ==slow speed== and will take a long
 time ![[Pasted image 20251122221923.png]]</li>
 <li>if <span class="math inline"><em>α</em></span> is too large, the
 gradient descent may overshoot and never reach minimum, it fail to
-converge, ==may even diverge== ![[Pasted image 20251122222138.png]]</li>
+converge, ==may even diverge== ![Pasted image 20251122222138.png]</li>
 </ul></li>
 <li>why the gradient descent change w to get J(w) closer to the minimum
-(one parameter condition, without b)![[Pasted image
-20251122221314.png]]</li>
+(one parameter condition, without b)![Pasted image
+20251122221314.png]</li>
 <li>if the J(w) has already reach the ==local== minimum, then the
-further gradient descent will do absolutely nothing ![[Pasted image
-20251122222617.png]]</li>
+further gradient descent will do absolutely nothing ![Pasted image
+20251122222617.png]</li>
 <li>as J(w) approachs the minimum, the derivative gets closer to zero,
 if the <span class="math inline"><em>α</em></span> is fixed, update
-steps become smaller ![[Pasted image 20251122223119.png]]</li>
+steps become smaller [[Pasted image 20251122223119.png]</li>
 </ul>
-<hr>
+<hr />
 <h1 id="calculate">2 calculate:</h1>
 <ul>
 <li>![[Pasted image 20251123093647.png]]</li>
@@ -340,13 +341,13 @@ cost function is a convex function, like this one: ![[Pasted image
 <li>it will always coverge to the minimum if you choose a appropriate
 learning rate.</li>
 </ul>
-<hr>
+<hr />
 <h1 id="batch-gradient-descent">3 “Batch” gradient descent</h1>
 <ul>
 <li>meaning: each step of gradient descent uses ==all the training
 examples==.</li>
 </ul>
-<hr>
+<hr />
 <h1 id="meanings">4 meanings</h1>
 <ul>
 <li>Monitoring J
@@ -359,7 +360,8 @@ examples==.</li>
 <li>the <span class="math inline">$\left| \frac{\partial J}{\partial w}
 \right|$</span> and <span class="math inline">$\left| \frac{\partial
 J}{\partial b} \right|$</span> will become smaller after every
-iterations, so we can set very small limits:<span class="math display">$$\left| \frac{\partial J}{\partial w} \right| &lt;
+iterations, so we can set very small limits:<span
+class="math display">$$\left| \frac{\partial J}{\partial w} \right| &lt;
 \epsilon \quad \text{and} \quad \left| \frac{\partial J}{\partial b}
 \right| &lt; \epsilon$$</span> when the two derivatives reach the limits
 simultaneously, the function converges.</li>
@@ -367,7 +369,8 @@ simultaneously, the function converges.</li>
 <li>Monitoring <span class="math inline"><em>Δ</em><em>w</em></span> and
 <span class="math inline"><em>Δ</em><em>b</em></span>
 <ul>
-<li>the change in parameter <span class="math inline"><em>Δ</em><em>w</em></span> is proportional to the
+<li>the change in parameter <span
+class="math inline"><em>Δ</em><em>w</em></span> is proportional to the
 gradient we can see in the gradient descent, so when the gradient close
 to 0, the change of w and b will become smaller. so we set a threshold,
 when the changes get smaller than the threshold, the function
