@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-19T17:39:20.538Z</updated>
+  <updated>2026-08-20T10:22:34.866Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2026/08/19/Characteristics-of-the-Atmosphere/"/>
     <id>http://example.com/2026/08/19/Characteristics-of-the-Atmosphere/</id>
     <published>2026-08-19T16:37:07.000Z</published>
-    <updated>2026-08-19T17:39:20.538Z</updated>
+    <updated>2026-08-20T10:22:34.866Z</updated>
     
-    <content type="html"><![CDATA[<p>Finished on Aug 19 📝💻</p><hr /><div class="row">    <embed src="01-Characteristic-of-the-Atmosphere.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    <content type="html"><![CDATA[<p>Finished on Aug 19 📝💻</p><hr /><blockquote><p>📃 移动端阅读提示: iOS/iPad端若无法正常滑动翻页，请点击 <ahref="01-Characteristic-of-the-Atmosphere.pdf">➡️ 全屏阅读</a></p></blockquote><blockquote><p>📃 Note for iOS/iPadOS users: If you cannot scroll through theembedded preview, click <ahref="01-Characteristic-of-the-Atmosphere.pdf">➡️ open</a></p></blockquote><hr /><div class="row">    <embed src="01-Characteristic-of-the-Atmosphere.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
     <summary type="html">大气，海洋和气候笔记 01</summary>
